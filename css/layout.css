@@ -1,0 +1,21 @@
+div {
+    border: 1px solid black;
+    background-color: rgb(80, 121, 80);
+    width: 100%;
+}
+.a {
+    height: 75px;
+}
+.b {
+    height: 150px;
+}
+.c, .d {
+    height: 125px;
+}
+.e, .f, .g, .h {
+    width: 50%;
+    height: 250px;
+}
+.i {
+    height: 80px;
+}

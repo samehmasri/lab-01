@@ -1,0 +1,83 @@
+@media(min-width: 768px) {
+    body {
+        width: 960px;
+        display: grid;
+        grid-template-columns: 200px repeat(4, 190px);
+        grid-template-rows: 100px 200px 250px 150px;
+    }
+}
+
+@media(min-width:960px) {
+    body {
+        width: 960px;
+        margin: auto;
+    }
+}
+
+@media(min-width: 768px) {
+    div {
+        background-color: lightslategray
+    }
+    .a {
+        height: 100px;
+        grid-column: 1 / 6;
+    }
+    .b {
+        height: 600px;
+        grid-column: 1 / 2;
+    }
+    .c {
+        height: 200px;
+        grid-column: 2 / 4;
+    }
+    .d {
+        height: 200px;
+        grid-column: 4 / 6;  
+    }
+    .e {
+        height: 250px;
+        width: 100%;
+        grid-column-start: 2;
+    }
+    .f {
+        height: 250px;
+        width: 100%;
+        grid-column: 3 / 4;
+    }
+    .g {
+        height: 250px;
+        width: 100%;
+        grid-column: 4 / 5;
+    }
+    .h {
+        height: 250px;
+        width: 100%;
+        grid-column: 5 / 6;
+    }
+    .i {
+        height: 150px;
+        width: 100%;
+        grid-column: 2 / 6;
+    }
+}
+
+@media(min-width: 960px) {
+    div {
+        background-color: rgb(219, 135, 222);
+    }
+}
+
+@media(min-width: 768px) {
+    .a p {
+        padding: 38px 0;
+    }
+    .b p {
+        padding: 270px 0;
+    }
+    .c p, .d p {
+        padding: 95px 0;
+    }
+    .i p {
+        padding: 65px 0;
+    }  
+}
